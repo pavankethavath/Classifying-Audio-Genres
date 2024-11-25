@@ -2,7 +2,7 @@
 
 An advanced **Music Recommendation System** powered by data science and a comprehensive **Spotify dataset**. This project leverages real-world song data, unsupervised learning, and similarity metrics to deliver personalized music recommendations.
 
-![Streamlit Interface](./streamlit_interface.png)
+![Streamlit Interface](./images/home.png)
 ---
 ## 🌟 Overview
 
@@ -33,6 +33,7 @@ This project demonstrates the application of data science to solve real-world pr
 3. **Unsupervised Learning**:
    - **KMeans Clustering** groups songs with similar attributes.
    - Optimal clusters are determined using the **Elbow Method**.
+     ![PCA Visualization](./images/elbow_method.png)
 
 4. **Recommendation Generation**:
    - **Cosine Similarity** measures the closeness of songs within a cluster.
@@ -91,6 +92,7 @@ Ensure the following are installed:
 ### **Preprocessing**:
 - Standardized numerical features for uniform scaling.
 - Added a `decade` feature for exploratory analysis.
+![PCA Visualization](./images/popularity.png)
 
 ---
 
@@ -99,17 +101,16 @@ Ensure the following are installed:
 ### **Clustering Visualization (PCA)**:
 Clusters are visualized using **Principal Component Analysis (PCA)**, showing clear separations among song groups. Here's an example of the clustering output:
 
-![PCA Visualization](./pca_visualization.png)
-
+![PCA Visualization](./images/pca.png)
 ### **Clustering Visualization (t-SNE)**:
 To further understand cluster separations, we used **t-SNE** for high-dimensional data visualization:
 
-![t-SNE Visualization](./tsne_visualization.png)
+![t-SNE Visualization](./images/t-sne.png)
 
 ### **Streamlit Interface**:
 A snapshot of the interactive Streamlit interface where users can input a song name and view recommendations:
 
-![Streamlit Interface](./streamlit_interface.png)
+![Streamlit Interface](./images/streamlit_app.png)
 
 ### **Feature Correlations**:
 A **correlation heatmap** highlights the relationships between features, enabling effective feature selection:
